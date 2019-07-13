@@ -12,10 +12,8 @@ public class EmployeeInfo {
 
         employee.setDepartment(department);
 
-        System.out.println(employee.getId());
-        System.out.println(employee.getName());
-        System.out.println(employee.getDesignation());
-        System.out.println(employee.getDepartment().getId());
-        System.out.println(employee.getDepartment().getName());    }
+        System.out.println(employee.toString());
+        System.out.println(department.toString());
+    }
 
 }
