@@ -13,6 +13,7 @@ public class EmployeeInfo {
         employee.setDepartment(department);
 
         System.out.println(employee.toString());
+        System.out.println(department.toString());
     }
 
 }

@@ -40,13 +40,13 @@ public class Employee {
         this.designation = designation;
     }
 
+
     @Override
     public String toString() {
-        return "Employee{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
-                ", department=" + department +
-                '}';
+        return "Employee { \n" +
+                "id='" + id + "'\n" +
+                "name='" + name + "'\n" +
+                "designation='" + designation + "'\n" +
+                "}";
     }
 }
