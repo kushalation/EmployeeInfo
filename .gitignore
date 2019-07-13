@@ -1,0 +1,10 @@
+# Don't track content of these folders
+out/
+.idea/
+*.iml
+
+# Compiled source #
+*.class
+
+# Packages #
+.jar
