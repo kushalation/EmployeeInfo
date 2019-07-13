@@ -12,6 +12,8 @@ public class EmployeeInfo {
 
         employee.setDepartment(department);
 
+        System.out.println(employee.getName() + " is from "
+                + employee.getDepartment().getName() + " department");
         System.out.println(employee.toString());
         System.out.println(department.toString());
     }
