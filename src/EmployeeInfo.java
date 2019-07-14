@@ -5,7 +5,9 @@ public class EmployeeInfo {
         employee.setId("01");
         employee.setDesignation("Developer");
         employee.setName("Tom");
-
+        employee.setCollege("abc");
+        employee.setAge(21);
+        employee.setLocation("abc");
         Department department = new Department();
         department.setId("01");
         department.setName("Engg");
