@@ -8,6 +8,26 @@ public class Employee {
 
     private Department department;
 
+    private String college;
+
+    private int age;
+
+    public String getCollege() {
+        return college;
+    }
+
+    public void setCollege(String college) {
+        this.college = college;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public Department getDepartment() {
         return department;
     }
@@ -40,12 +60,16 @@ public class Employee {
         this.designation = designation;
     }
 
+
     @Override
     public String toString() {
-        return "Employee { \n" +
-                "id='" + id + "'\n" +
-                "name='" + name + "'\n" +
-                "designation='" + designation + "'\n" +
-                "}";
+        return "Employee{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                ", department=" + department +
+                ", college='" + college + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
