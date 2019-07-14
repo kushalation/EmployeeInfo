@@ -28,6 +28,16 @@ public class Employee {
         this.age = age;
     }
 
+    private String location;
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
     public Department getDepartment() {
         return department;
     }
@@ -70,6 +80,7 @@ public class Employee {
                 ", department=" + department +
                 ", college='" + college + '\'' +
                 ", age=" + age +
+                ", location='" + location + '\'' +
                 '}';
     }
 }
