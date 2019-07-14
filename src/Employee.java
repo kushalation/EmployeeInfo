@@ -8,6 +8,16 @@ public class Employee {
 
     private Department department;
 
+    private String location;
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
     public Department getDepartment() {
         return department;
     }
@@ -42,10 +52,12 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee { \n" +
-                "id='" + id + "'\n" +
-                "name='" + name + "'\n" +
-                "designation='" + designation + "'\n" +
-                "}";
+        return "Employee{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                ", department=" + department +
+                ", location='" + location + '\'' +
+                '}';
     }
 }
